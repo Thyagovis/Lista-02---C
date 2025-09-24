@@ -14,9 +14,6 @@ int main(){
     inicio = (a > b)? b : a;
     fim = (a > b)? a : b;
 
-    printf("Valor do inicio: %d", inicio);
-    printf("Valor do fim: %d", fim);
-
     for(int i = inicio; i <= fim; i++){
 
         somatorio += (i % 2 == 0)? i : 0;

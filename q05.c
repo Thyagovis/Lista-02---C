@@ -25,6 +25,7 @@ int main(){
             menor = valor;
 
         }
+        
     }
 
     printf("O menor valor foi: %d\nO menor valor foi: %d", maior, menor);
